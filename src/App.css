@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color:aliceblue;
+  height: 100vh;
+  width: 100vh;
 }
 
 .App-logo {
@@ -24,8 +27,18 @@
   color: white;
 }
 
+
+
 .App-link {
   color: #61dafb;
+}
+.search-bar-container {
+  padding-top: 20vh;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {
